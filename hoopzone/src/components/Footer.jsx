@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, Twitter, Youtube, Twitch } from "lucide-react";
+import hoopLogo from "@/assets/hoopzone-logo.svg";
 
 export function Footer() {
   return (
@@ -7,10 +8,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8 py-16 grid gap-12 md:grid-cols-4">
         <div className="md:col-span-1">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-9 h-9 rounded-md bg-brand-gradient grid place-items-center shadow-glow">
-              <span className="font-display text-xl text-brand-foreground leading-none">H</span>
-            </div>
-            <span className="font-display text-2xl tracking-wider">HOOPZONE</span>
+            <img src={hoopLogo} alt="HoopZone" className="logo" />
           </div>
           <p className="text-sm text-muted-foreground max-w-xs">
             O coração do basketball — drops, jogos ao vivo e cultura urbana num só lugar.

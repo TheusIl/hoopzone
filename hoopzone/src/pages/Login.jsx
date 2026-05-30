@@ -17,13 +17,7 @@ export default function Login() {
         <img src={courtBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/40 via-background/20 to-background" />
         <div className="absolute inset-0 grain" />
-        <div className="relative h-full p-12 flex flex-col justify-between">
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-md bg-brand-gradient grid place-items-center shadow-glow">
-              <span className="font-display text-xl text-brand-foreground leading-none">H</span>
-            </div>
-            <span className="font-display text-2xl tracking-wider">HOOPZONE</span>
-          </Link>
+        <div className="relative h-full p-12 flex flex-col justify-end">
           <div>
             <h2 className="font-display text-6xl tracking-tight leading-none">
               Bem-vindo<br />ao <span className="text-brand">clube.</span>

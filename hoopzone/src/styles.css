@@ -1,4 +1,4 @@
-@import "tailwindcss" source(none);
+@import "tailwindcss";
 @source "../src";
 @import "tw-animate-css";
 
@@ -115,6 +115,14 @@
   .bg-brand-gradient { background: var(--gradient-brand); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
   .shadow-card { box-shadow: var(--shadow-card); }
+  .logo {
+    height: 256px;
+    width: auto;
+    margin-left: -14rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
   .text-stroke {
     -webkit-text-stroke: 1px oklch(0.98 0.005 25 / 0.25);
     color: transparent;

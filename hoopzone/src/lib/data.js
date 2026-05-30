@@ -3,6 +3,8 @@ import sneaker2 from "@/assets/sneaker-2.jpg";
 import sneaker3 from "@/assets/sneaker-3.jpg";
 import jersey1 from "@/assets/jersey-1.jpg";
 import hoodie1 from "@/assets/hoodie-1.jpg";
+import shortVermelho from "@/assets/short-vermelho.png";
+import tenisAzul from "@/assets/tenis-azul.png";
 
 export const products = [
   { id: "air-zone-1", name: "Air Zone 1 'Bred'", category: "Tênis", price: 1299, originalPrice: 1599, image: sneaker1, badge: "Drop Novo", colorway: "Vermelho / Preto" },
@@ -13,6 +15,8 @@ export const products = [
   { id: "air-zone-2", name: "Air Zone 1 'Court'", category: "Tênis", price: 1199, image: sneaker2, badge: "Top Vendas", colorway: "Branco" },
   { id: "jersey-city", name: "City Edition Jersey", category: "Jerseys", price: 489, image: jersey1, colorway: "Vermelho" },
   { id: "blackout-hoodie", name: "Blackout Logo Hoodie", category: "Moletons", price: 499, originalPrice: 599, image: hoodie1, badge: "-16%", colorway: "Preto" },
+  { id: "short-vermelho", name: "Short Vermelho Classic", category: "Shorts", price: 299, image: shortVermelho, colorway: "Vermelho" },
+  { id: "tenis-azul", name: "Tenis Azul Court", category: "Tênis", price: 1399, image: tenisAzul, badge: "Novo", colorway: "Azul" },
 ];
 
 export const categories = ["Tênis", "Jerseys", "Moletons", "Shorts", "Acessórios"];

@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Menu, ShoppingBag, Search, X } from "lucide-react";
+import hoopLogo from "@/assets/hoopzone-logo.svg";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -30,12 +31,9 @@ export function Navbar() {
         scrolled ? "backdrop-blur-xl bg-background/70 border-b border-border" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto max-w-7xl px-4 lg:px-8 h-16 flex items-center justify-between">
+      <div className="relative mx-auto max-w-7xl px-4 lg:px-8 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="relative w-9 h-9 rounded-md bg-brand-gradient grid place-items-center shadow-glow">
-            <span className="font-display text-xl text-brand-foreground leading-none">H</span>
-          </div>
-          <span className="font-display text-2xl tracking-wider">HOOPZONE</span>
+          <img src={hoopLogo} alt="HoopZone" className="logo" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">
@@ -86,7 +84,7 @@ export function Navbar() {
             className="fixed inset-0 z-50 bg-background lg:hidden"
           >
             <div className="h-16 px-4 flex items-center justify-between border-b border-border">
-              <span className="font-display text-2xl tracking-wider">HOOPZONE</span>
+              <img src={hoopLogo} alt="HoopZone" className="logo" />
               <button onClick={() => setOpen(false)} className="w-10 h-10 grid place-items-center rounded-md hover:bg-secondary">
                 <X className="w-5 h-5" />
               </button>
