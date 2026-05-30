@@ -14,8 +14,13 @@ function NotFound() {
       <div className="max-w-md text-center">
         <h1 className="font-display text-[10rem] leading-none text-brand">404</h1>
         <h2 className="mt-2 font-display text-3xl tracking-wider">Fora da quadra</h2>
-        <p className="mt-2 text-sm text-muted-foreground">Essa página não existe ou foi removida do roster.</p>
-        <Link to="/" className="inline-flex mt-6 items-center justify-center rounded-md bg-brand px-5 py-3 text-sm font-bold uppercase tracking-widest text-brand-foreground hover:bg-brand-glow transition-colors">
+        <p className="mt-2 text-sm text-muted-foreground">
+          Essa página não existe ou foi removida do roster.
+        </p>
+        <Link
+          to="/"
+          className="inline-flex mt-6 items-center justify-center rounded-md bg-brand px-5 py-3 text-sm font-bold uppercase tracking-widest text-brand-foreground hover:bg-brand-glow transition-colors"
+        >
           Voltar para a Home
         </Link>
       </div>
